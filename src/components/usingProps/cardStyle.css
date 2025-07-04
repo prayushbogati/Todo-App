@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    /* display: flex; */
+    justify-content: center;
+}
+
+.card {
+    margin: auto;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+}
+
+.card h3 {
+    width: 100%;
+    background-color: skyblue;
+    padding: 20px;
+    text-align: left;
+}
+.card .id {
+    width: 100%;
+    background-color: skyblue;
+    text-align: center;
+}
+
+.card .circleImg {
+    display: block;
+    height: 100px;
+    width: 100px;
+    border: 5px solid white;
+    border-radius: 100%;
+    position: absolute;
+    transform: translateX(190%);
+    margin-top: -50px;
+}
+
+.circleImg {
+    display: block;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.contact {
+    width: 100%;
+    background-color: aqua;
+    padding: 20px;
+    height: 100px;
+}

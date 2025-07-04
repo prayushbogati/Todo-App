@@ -4,9 +4,9 @@ import { createRoot } from 'react-dom/client'
 // import Des from './components/destructuring/des'
 // import ChangeNum from './components/useState/numChange'
 // import GetTime from './components/useState/getTime'
-import Form from './components/loginApp/form'
+// import Form from './components/loginApp/form'
 // import Strike from './components/useState/strike'
-// import MyApp from './components/keeperApp/keeperApp'
+import MyApp from './components/keeperApp/keeperApp'
 // import Loop from './loopExercise'
 // import EmojiApp from './components/emojisApp/emojiApp'
 // import Props from './components/usingProps/props'
@@ -37,8 +37,8 @@ createRoot(document.getElementById('root')).render(
     {/* <Props/>  */}
     {/* <EmojiApp /> */}
     {/* <Loop/> */}
-    {/* <MyApp /> */}
-    <Form/> 
+    <MyApp />
+    {/* <Form/>  */}
     {/* <Strike/>  */}
     {/* <ChangeNum />  */}
     {/* <GetTime/> */}

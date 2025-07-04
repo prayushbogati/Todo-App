@@ -1,0 +1,19 @@
+.bigDiv{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* text-align: center; */
+
+}
+.heading{
+    color: red;
+  }
+  .images{
+    display: flex;
+    column-gap: 5px;
+  }
+  .images img{
+    height: 100px;
+    width: 100px;
+  }
