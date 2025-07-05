@@ -6,7 +6,7 @@ import { createRoot } from 'react-dom/client'
 // import GetTime from './components/useState/getTime'
 // import Form from './components/loginApp/form'
 // import Strike from './components/useState/strike'
-import MyApp from './components/keeperApp/keeperApp'
+// import MyApp from './components/keeperApp/keeperApp'
 // import Loop from './loopExercise'
 // import EmojiApp from './components/emojisApp/emojiApp'
 // import Props from './components/usingProps/props'
@@ -22,7 +22,7 @@ import MyApp from './components/keeperApp/keeperApp'
 // let name = "Prayush Bogati";
 // let date = new Date().getFullYear();
 // let randNum = Math.floor(Math.random() * 10 + 1);
-// import TodoApp from './components/todoList/todoApp'
+import TodoApp from './components/todoList/todoApp'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
@@ -37,13 +37,13 @@ createRoot(document.getElementById('root')).render(
     {/* <Props/>  */}
     {/* <EmojiApp /> */}
     {/* <Loop/> */}
-    <MyApp />
+    {/* <MyApp /> */}
     {/* <Form/>  */}
     {/* <Strike/>  */}
     {/* <ChangeNum />  */}
     {/* <GetTime/> */}
     {/* <Des /> */}
 {/* <Hook /> */}
-{/* <TodoApp/> */}
+<TodoApp/>
   </StrictMode>
 )
