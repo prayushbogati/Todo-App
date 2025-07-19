@@ -10,9 +10,12 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: khaki;
     background-image: url("./bg.png");
+    display: flex;
+    flex-direction: column;
 }
 
 .heading {
+    max-width: 100%;
     text-align: center;
     background-image: url(./pool-table.png);
     padding: 20px;
@@ -23,12 +26,30 @@ body {
 }
 
 .noteContainer {
+    position: relative;
+    top: 50px;
     margin-top: -20px;
     padding: 20px;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
     gap: 20px;
+}
+@media (max-width: 500px){
+    .noteContainer {
+    position: relative;
+    top: 50px;
+    margin-top: -20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+}
 }
 
 .note {
@@ -93,6 +114,7 @@ body {
     color: red;
     cursor: pointer;
     position: relative;
+    left: 150px;
     /* transform: translate(650%, 0%); */
 }
 
