@@ -10,7 +10,7 @@ function TextArea(props) {
             value={props.value}
             name={props.name}
             rows = {props.rows}
-            // required
+            required
         />
     )
 }

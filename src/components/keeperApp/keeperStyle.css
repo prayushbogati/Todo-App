@@ -6,7 +6,6 @@
 }
 
 body {
-    overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
     background-color: khaki;
     background-image: url("./bg.png");
@@ -49,7 +48,7 @@ body {
 }
 
 .footer p {
-    color: rgb(199, 180, 180);
+    color: rgb(156, 142, 142);
 }
 
 .inputContainer {
@@ -93,13 +92,15 @@ body {
     color: red;
     cursor: pointer;
     position: relative;
-    transform: translate(650%, 0%);
+    /* transform: translate(650%, 0%); */
 }
 
 .btn {
     /* border: none; */
     background-color: red;
-    position: relative;
-    transform: translate(56%, -90%);
+    position: absolute;
+    top: 40%;
+    right: 10px;
+    /* transform: translate(56%, -90%); */
     background-color: transparent;
 }

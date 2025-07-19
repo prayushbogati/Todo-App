@@ -33,10 +33,10 @@ function Form(props) {
             <div className="inputContainer">
                 {isClicked && (<Input placeholder="enter note title" name="title" value={input.title} onChange={handleChange} spellCheck="false" />)}
                 <TextArea placeholder="enter note content" name="content" value={input.content} onChange={handleChange} onClick={handleClick} rows={isClicked ? "3" : "1"} />
+                
+                {isClicked && <div className="btn" ><Zoom in={true} ><Fab type="submit" ><AddIcon />
+                </Fab></Zoom></div>}
             </div>
-            {isClicked && <div className="btn" ><Zoom in={true} ><Fab type="submit" >
-                <AddIcon />
-            </Fab></Zoom></div>}
         </form >
     )
 }

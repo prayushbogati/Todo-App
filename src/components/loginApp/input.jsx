@@ -10,7 +10,7 @@ class Input extends React.Component {
                     spellCheck={this.props.spellCheck}
                     value={this.props.value}
                     name={this.props.name}
-                    // required
+                    required
                 />
         )
     }
