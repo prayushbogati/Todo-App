@@ -6,6 +6,7 @@
 }
 
 body {
+    overflow-x: scroll;
     font-family: 'Poppins', sans-serif;
     background-color: khaki;
     background-image: url("./bg.png");
